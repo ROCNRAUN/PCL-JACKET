@@ -9,6 +9,19 @@
 
 [Anaconda 2022.05](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=D)
 
+```bash
+# 在命令行输入以下命令，创建名为paddle_env的环境
+# 此处为加速下载，使用清华源
+conda create --name paddle_env python=3.8 --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/  # 这是一行命令
+```
+
+```bash
+# 激活paddle_env环境
+conda activate paddle_env
+# 查看当前python的位置
+where python
+```
+
 [CUDA 10.2](https://developer.nvidia.com/cuda-10.2-download-archive)
 
 [CUDNN 7.6.5](https://developer.nvidia.com/rdp/cudnn-archive)
