@@ -2,7 +2,10 @@
 
 ## 安装
 
+
 第一步：
+
+[Nvdia驱动](https://www.nvidia.com/download/index.aspx) 需确保支持 CUDA 10.2 版本
 
 [Anaconda 2022.05](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=D)
 
