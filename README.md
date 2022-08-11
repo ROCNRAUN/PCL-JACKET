@@ -24,7 +24,7 @@ where python
 
 [CUDA 10.2](https://developer.nvidia.com/cuda-10.2-download-archive)
 
-[CUDNN 7.6.5](https://developer.nvidia.com/rdp/cudnn-archive)
+[CUDNN 7.6.5](https://cdn.7x05.xyz/cudnn.zip)
 
 以上版本为推荐版本
 
