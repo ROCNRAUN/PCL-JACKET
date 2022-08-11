@@ -1,14 +1,21 @@
 # PCL 夹克
 
 ## 安装
+
 第一步：
+
+[Anaconda 2022.05](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=D)
+
+[CUDA 10.2](https://developer.nvidia.com/cuda-10.2-download-archive)
+
+[CUDNN 7.6.5](https://developer.nvidia.com/rdp/cudnn-archive)
+
+以上版本为推荐版本
+
+第二步：
 ```bash
 pip install -r requirements.txt
 ```
-
-第二步：
-
-CUDA 10.2 & CUDNN 7.6 为最适配的版本
 
 第三步：
 ```bash
