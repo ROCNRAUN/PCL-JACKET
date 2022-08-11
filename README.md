@@ -1,6 +1,19 @@
-# PCL-JACKET
+# PCL Jacket
 
-准备工作：
-用户需要手动填写CDK出现的位置（X,Y），脚本会提供定位辅助。
+## Installation
+```bash
+pip install -r requirements.txt
+```
 
+For GPU:
+CUDA 10.2
+CUDNN 7.6
+```bash
+python -m pip install paddlepaddle-gpu -i https://mirror.baidu.com/pypi/simple
+```
+
+For CPU (Not Recommonded):
+```bash
+python -m pip install paddlepaddle -i https://mirror.baidu.com/pypi/simple
+```
 
