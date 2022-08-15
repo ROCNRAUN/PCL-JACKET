@@ -22,8 +22,8 @@
 
 第二步：
 
-# PCL-JACKET 这个目录下运行 cmd
 ```bash
+# PCL-JACKET 这个目录下运行 cmd
 pip install paddlepaddle-gpu==2.3.1.post112 -f https://www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html && pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
