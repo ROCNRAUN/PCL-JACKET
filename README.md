@@ -5,37 +5,17 @@
 
 第一步：
 
-[Nvdia驱动](https://www.nvidia.com/download/index.aspx) 需确保支持 CUDA 10.2 版本
+[Nvdia驱动](https://www.nvidia.com/download/index.aspx) 需确保支持 CUDA 11.2 版本
 
-[Anaconda 2022.05](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=D)
+[CUDA 11.2](https://developer.download.nvidia.com/compute/cuda/11.2.0/local_installers/cuda_11.2.0_460.89_win10.exe)
 
-```bash
-# 在命令行输入以下命令，创建名为paddle_env的环境
-# 此处为加速下载，使用清华源
-conda create --name paddle_env python=3.8 --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/  # 这是一行命令
-```
-
-```bash
-# 激活paddle_env环境
-conda activate paddle_env
-# 查看当前python的位置
-where python
-```
-
-[CUDA 10.2](https://developer.nvidia.com/cuda-10.2-download-archive)
-
-[CUDNN 7.6.5](https://cdn.7x05.xyz/cudnn.zip)
-
-以上版本为推荐版本
+[CUDNN 8.2.1](https://developer.download.nvidia.com/compute/machine-learning/cudnn/secure/8.2.1.32/11.3_06072021/cudnn-11.3-windows-x64-v8.2.1.32.zip)
 
 第二步：
-```bash
-pip install -r requirements.txt
-```
 
-第三步：
 ```bash
-python -m pip install paddlepaddle-gpu -i https://mirror.baidu.com/pypi/simple
+# PCL-JACKET 这个目录下运行 cmd
+pip install ./packages/paddlepaddle_gpu-2.3.1.post112-cp39-cp39-win_amd64.whl && pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple && cd ./packages/PaddleOCR-2.5.0 && python setup.py build && python setup.py install && cd ../../
 ```
 
 ## 准备
@@ -50,4 +30,4 @@ python -m pip install paddlepaddle-gpu -i https://mirror.baidu.com/pypi/simple
 python main.py
 ```
 
-识别、输入、领取CDK的过程是全自动的，请勿挪动鼠标
+识别、输入、领取CDK的过程是全自动的
