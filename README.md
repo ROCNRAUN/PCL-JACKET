@@ -17,6 +17,9 @@
 
 [Python 3.9.12](https://www.nvidia.cn/Download/index.aspx?lang=cn)
 
+[FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases)
+需解压到 PCL-JACKET 的根目录下
+
 第二步：
 
 ```bash
